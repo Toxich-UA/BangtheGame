@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="horizontal"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:layout_centerHorizontal="true"
-              android:id="@+id/container">
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="#ee9f0b"
+        android:id="@+id/container">
 
     <android.support.v7.widget.AppCompatButton
         android:layout_width="wrap_content"
@@ -13,7 +14,8 @@
         android:id="@+id/launchAnim"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="50dp"
         android:onClick="cardMoveFlip"/>
 
     <android.support.v7.widget.AppCompatTextView
